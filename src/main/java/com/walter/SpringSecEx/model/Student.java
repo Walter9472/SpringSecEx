@@ -1,4 +1,4 @@
-package com.walter.SpringSecEx;
+package com.walter.SpringSecEx.model;
 
 public class Student {
 
