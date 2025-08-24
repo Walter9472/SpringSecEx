@@ -1,6 +1,7 @@
 package com.walter.SpringSecEx.controller;
 
 import com.walter.SpringSecEx.model.Student;
+import com.walter.SpringSecEx.model.Users;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,5 +35,6 @@ public class StudentController {
         students.add(student);
         return student;
     }
+
 
 }
